@@ -22,11 +22,10 @@
         <yu-project.version>0.0.1-SNAPSHOT</yu-project.version>
         <java.version>1.8</java.version>
         <kotlin.version>1.6.10</kotlin.version>
-        <cloud.version>Greenwich.SR2</cloud.version>
-        <nacos.version>2.0.1.RELEASE</nacos.version>
-        <swagger-ui.version>1.5.20</swagger-ui.version>
-        <swagger.version>1.9.0.RELEASE</swagger.version>
-        <validator.version>5.3.1.Final</validator.version>
+        <cloud.version>2021.0.0</cloud.version>
+        <nacos.version>2021.1</nacos.version>
+        <swagger.version>3.0.0</swagger.version>
+        <validator.version>7.0.2.Final</validator.version>
     </properties>
 
     <dependencies>
@@ -68,19 +67,13 @@
             </dependency>
             <!-- Swagger -->
             <dependency>
-                <groupId>io.swagger</groupId>
-                <artifactId>swagger-annotations</artifactId>
-                <version>${swagger-ui.version}</version>
-                <scope>compile</scope>
-            </dependency>
-            <dependency>
-                <groupId>com.spring4all</groupId>
-                <artifactId>swagger-spring-boot-starter</artifactId>
+                <groupId>io.springfox</groupId>
+                <artifactId>springfox-boot-starter</artifactId>
                 <version>${swagger.version}</version>
             </dependency>
             <!-- validator -->
             <dependency>
-                <groupId>org.hibernate</groupId>
+                <groupId>org.hibernate.validator</groupId>
                 <artifactId>hibernate-validator</artifactId>
                 <version>${validator.version}</version>
             </dependency>
