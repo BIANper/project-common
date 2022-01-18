@@ -25,7 +25,7 @@
         <cloud.version>2021.0.0</cloud.version>
         <nacos.version>2021.1</nacos.version>
         <swagger.version>3.0.0</swagger.version>
-        <validator.version>7.0.2.Final</validator.version>
+        <validator.version>6.2.1.Final</validator.version>
     </properties>
 
     <dependencies>
