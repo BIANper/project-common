@@ -24,6 +24,7 @@
         <kotlin.version>1.6.10</kotlin.version>
         <cloud.version>2021.0.0</cloud.version>
         <nacos.version>2021.1</nacos.version>
+        <fastjson.verson>1.2.79</fastjson.verson>
         <swagger.version>3.0.0</swagger.version>
         <validator.version>6.2.1.Final</validator.version>
     </properties>
@@ -64,6 +65,12 @@
                 <groupId>com.alibaba.cloud</groupId>
                 <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
                 <version>${nacos.version}</version>
+            </dependency>
+            <!-- Fastjson  -->
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>${fastjson.verson}</version>
             </dependency>
             <!-- Swagger -->
             <dependency>
